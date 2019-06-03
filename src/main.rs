@@ -55,7 +55,6 @@ fn main() -> Result<(), Errors> {
   let mut start: u64 = 0;
   let client = reqwest::Client::new();
 
-
   let poll_interval = matches.value_of("poll-interval").unwrap();
   let interval_in_ms = get_poll_interval(poll_interval)?;
 
@@ -89,7 +88,6 @@ fn main() -> Result<(), Errors> {
     } else {
       break;
     }
-
 
     std::thread::sleep(Duration::from_millis(interval_in_ms));
   }
