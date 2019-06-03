@@ -2,7 +2,7 @@
 name = "stream-jenkins-logs"
 description = "Stream jenkins logs for a given build"
 version = "0.1.0"
-authors = ["Stefan Ruzitschka <icepuma@godda.mn>"]
+authors = ["Stefan Ruzitschka <stefan@icepuma.dev>"]
 edition = "2018"
 license-file = "LICENSE"
 readme = "README.md"
