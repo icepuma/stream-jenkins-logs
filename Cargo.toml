@@ -4,8 +4,10 @@ description = "Stream jenkins logs for a given build"
 version = "0.1.1-alpha.0"
 authors = ["Stefan Ruzitschka <stefan@icepuma.dev>"]
 edition = "2018"
-license-file = "LICENSE"
+license = "WTFPL"
 readme = "README.md"
+categories = ["command-line-utilities"]
+keywords = ["jenkins", "productivity", "cli", "automation", "developer-tools", "logs", "stream"]
 
 [dependencies]
 reqwest = "0.9.17"
