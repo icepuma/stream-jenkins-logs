@@ -7,7 +7,7 @@ edition = "2018"
 license = "WTFPL"
 readme = "README.md"
 categories = ["command-line-utilities"]
-keywords = ["jenkins", "productivity", "cli", "automation", "developer-tools", "logs", "stream"]
+keywords = ["jenkins", "cli", "developer-tools", "logs", "stream"]
 
 [dependencies]
 reqwest = "0.9.17"
