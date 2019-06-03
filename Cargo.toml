@@ -4,6 +4,8 @@ description = "Stream jenkins logs for a given build"
 version = "0.1.0"
 authors = ["Stefan Ruzitschka <icepuma@godda.mn>"]
 edition = "2018"
+license-file = "LICENSE"
+readme = "README.md"
 
 [dependencies]
 reqwest = "0.9.17"
